@@ -1,3 +1,3 @@
 fn main() {
-    println!("Welcome to CSC 101!");
+    let a: 10
 }
