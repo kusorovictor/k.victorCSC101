@@ -1,0 +1,45 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug executable 'practice_10'",
+      "cargo": {
+        "args": [
+          "build",
+          "--bin=practice_10",
+          "--package=practice_10"
+        ],
+        "filter": {
+          "name": "practice_10",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug unit tests in executable 'practice_10'",
+      "cargo": {
+        "args": [
+          "test",
+          "--no-run",
+          "--bin=practice_10",
+          "--package=practice_10"
+        ],
+        "filter": {
+          "name": "practice_10",
+          "kind": "bin"
+        }
+      },
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    }
+  ]
+}
