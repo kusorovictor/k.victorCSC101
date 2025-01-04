@@ -3,8 +3,10 @@ use std::io::{self, stdin};
 fn main() {
     println!("SHAPE CALCULATOR.\nWhat would you like to do?");
 
-    println!("\nSelect:\n'1' to calculate the area of a trapezium.\n'2' to calculate the area of a rhombus.\n'3' to calculate the area of a parallelogram.\n'4' to calculate the area of a cube.\n'5' to calculate the volume of a cylinder.\n'6' to exit the calculator.");
-    calc_any();
+    println!("\nSelect:\n'1' to calculate the area of a trapezium.\n'2' to calculate the area of a rhombus.\n'3' to calculate the area of a parallelogram.\n'4' to calculate the area of a cube.\n'5' to calculate the volume of a cylinder.\n'6' to exit the calculator
+    ||.");
+    calc_any();+
+
 }
 
 fn calc_trapezium_area(mut a: f64, mut b: f64, mut height: f64) -> f64 {
