@@ -1,0 +1,1 @@
+C:\Users\eastw\Git\ Projects\School\My-First-Repository\week-10\practice\practice-9\target\debug\practice-9.exe: C:\Users\eastw\Git\ Projects\School\My-First-Repository\week-10\practice\practice-9\src\main.rs
