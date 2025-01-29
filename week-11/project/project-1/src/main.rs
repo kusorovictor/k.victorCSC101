@@ -5,7 +5,7 @@ mod user_type;
 
 fn main() {
     println!("Welcome to the User Access Program");
-    println!("Please enter your user type from the following options: \nAdmin\nProject Manager\nEmployee\nCustomer\nVendor");
+    println!("Please enter your user type from the following options: \na.Admin\nb.Project Manager\nc.Employee\nd.Customer\ne.Vendor\n");
 
     get_user_content();
 }
