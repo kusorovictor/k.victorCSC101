@@ -21,7 +21,7 @@ impl UserType {
             "employee" => UserType::Employee,
             "customer" => UserType::Customer,
             "vendor" => UserType::Vendor,
-            _default => {
+            _ => {
                 println!("Invalid User Type, Please enter a valid user type.");
                 UserType::Customer
             }

@@ -8,7 +8,7 @@ pub fn get_input(msg: String) -> String {
         .read_line(&mut input)
         .expect("Failed to read line");
 
-    while input.is_empty() {
+    while input.trim().is_empty() {
         input = get_input("Please enter a valid input: ".to_string());
     }
 
